@@ -1,4 +1,4 @@
-this is a basic rails app. its a database with articles, created by following this [tutorial] (http://railsgirls.com/files/vienna/tutorial_1.html)
+this is a basic rails app. its a database with articles, created by following this [tutorial](http://railsgirls.com/files/vienna/tutorial_1.html)
 
 I have installed font awesome with $ yarn add @fortawesome/fontawesome-free in the terminal.
 
