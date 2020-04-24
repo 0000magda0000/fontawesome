@@ -2,7 +2,7 @@ this is a basic rails app. its a database with articles, created by following th
 
 * I have installed font awesome with 
 
-```$ yarn add @fortawesome/fontawesome-free ´´´
+```$ yarn add @fortawesome/fontawesome-free```
 
 in terminal.
 
@@ -34,7 +34,7 @@ in terminal.
   
 * I have run 
 
-```bundle install ´´´
+```bundle install```
 
 in terminal.
 
