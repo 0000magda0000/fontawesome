@@ -1,24 +1,23 @@
-# README
+this is a basic rails app. its a database with articles, created by following this tutorial http://railsgirls.com/files/vienna/tutorial_1.html
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+I have installed font awesome with $ yarn add @fortawesome/fontawesome-free in the terminal.
 
-Things you may want to cover:
+I have added the following to the gemfile:   
+ gem 'font_awesome5_rails'
 
-* Ruby version
+I have added the following to application.scss: 
+ @import 'font_awesome5_webfont';
+ @import 'font_awesome5.css';
+ $fa-font-path: '@fortawesome/fontawesome-free/webfonts';
+ @import '@fortawesome/fontawesome-free/scss/fontawesome';
+ @import '@fortawesome/fontawesome-free/scss/solid';
+ @import '@fortawesome/fontawesome-free/scss/regular';
+ @import '@fortawesome/fontawesome-free/scss/brands';
+ @import '@fortawesome/fontawesome-free/scss/v4-shims';
+ 
+ I have added the following to application.js:
+  import "@fortawesome/fontawesome-free/js/all";
+  
+I have run bundle install in terminal.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+for the html.erb code see app/views/articles/index.html.erb
