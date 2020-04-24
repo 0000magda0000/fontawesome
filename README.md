@@ -6,8 +6,11 @@ this is a basic rails app. its a database with articles, created by following th
  gem 'font_awesome5_rails'
 
 * I have added the following to application.scss: 
+
  @import 'font_awesome5_webfont';
+ 
  @import 'font_awesome5.css';
+ 
  $fa-font-path: '@fortawesome/fontawesome-free/webfonts';
  
  @import '@fortawesome/fontawesome-free/scss/fontawesome';
