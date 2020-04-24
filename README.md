@@ -22,6 +22,7 @@ this is a basic rails app. its a database with articles, created by following th
  
  
 * I have added the following to application.js:
+
   import "@fortawesome/fontawesome-free/js/all";
   
 * I have run bundle install in terminal.
