@@ -18,12 +18,18 @@
         <td><%= article.title %></td>
         <td><%= article.text %></td>
         <td><%= article.date %></td>
-        <td><%= link_to (article) do %>
+        <td><%= link_to(article) do %>
            <i class="far fa-eye"></i>
            <% end %>
         </td>
-        <td><%= link_to 'Edit', edit_article_path(article) %></td>
-        <td><%= link_to 'Destroy', article, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to edit_article_path(article) do %>
+            <i class="far fa-edit"></i>
+            <% end %>
+      </td>
+        <td><%= link_to(article, method: :delete, data: { confirm: 'Are you sure?' }) do %>
+            <i class="fa fa-trash"></i>
+            <% end %>
+      </td>
       </tr>
     <% end %>
   </tbody>
