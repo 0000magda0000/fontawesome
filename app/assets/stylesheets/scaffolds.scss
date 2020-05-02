@@ -1,12 +1,24 @@
 body {
   background-color: #fff;
   color: #333;
-  margin: 33px; }
+  margin: 33px;
+
+}
 
 body, p, ol, ul, td {
-  font-family: verdana, arial, helvetica, sans-serif;
+  font-family: monospace;
   font-size: 13px;
-  line-height: 18px; }
+  line-height: 18px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+table {
+  font-family: monospace;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  }
 
 pre {
   background-color: #eee;
@@ -19,22 +31,29 @@ a {
 a:visited {
   color: #666; }
 
-a:hover {
-  color: #fff;
-  background-color: #000; }
 
 th {
-  padding-bottom: 5px; }
+  padding-bottom: 5px;
+}
 
 td {
   padding: 0 5px 7px; }
 
+*.fa-edit {
+  text-decoration: none;
+}
+
 div.field,
 div.actions {
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: monospace;
+}
 
 #notice {
-  color: green; }
+  color: green;
+  font-family: monospace;
+}
 
 .field_with_errors {
   padding: 2px;
@@ -62,4 +81,6 @@ div.actions {
   list-style: square; }
 
 label {
-  display: block; }
+  display: block;
+  text-align: center;
+}

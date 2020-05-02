@@ -1,6 +1,9 @@
-<h1>Editing Article</h1>
-
 <%= render 'form', article: @article %>
 
-<%= link_to 'Show', @article %> |
-<%= link_to 'Back', articles_path %>
+<%= link_to(@article) do %>
+   <i class="far fa-eye"></i>
+   <% end %>
+
+<%= link_to(articles_path) do %>
+   <i class="fa fa-angle-left"></i>
+<% end %>
